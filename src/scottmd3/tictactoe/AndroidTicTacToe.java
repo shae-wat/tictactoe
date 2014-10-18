@@ -310,6 +310,15 @@ public class AndroidTicTacToe extends Activity {
 			// if computer is in pause, stop it.
 			startNewGame(false);
 			return true;
+		case R.id.ai_difficulty: 
+			showDialog(DIALOG_DIFFICULTY_ID);   	
+			return true;
+		case R.id.quit:
+			showDialog(DIALOG_QUIT_ID);
+			return true;
+		case R.id.reset_scores:
+			showDialog(DIALOG_RESET_ID);
+			return true;
 		}
 		return false;
 	}   
