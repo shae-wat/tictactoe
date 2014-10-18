@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/new_game_option"
+        android:icon="@drawable/new_game_image"
+        
+        android:title="@string/new_game_menu"/>
+    
+    <item
+        android:id="@+id/ai_difficulty"
+        android:title="@string/difficulty_menu"/>
+    
+    <item
+        android:id="@+id/quit"
+        android:title="@string/quit_menu"/>
+    
+    <item
+        android:id="@+id/reset_scores"
+        android:title="@string/reset_scores"/>
+
+</menu>
